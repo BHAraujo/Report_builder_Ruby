@@ -1,6 +1,3 @@
-require "site_prism"
-
-
 class Downloads < SitePrism::Page
       set_url " "
 
