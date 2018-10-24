@@ -1,0 +1,7 @@
+---
+default: -p bdd -p html_report -c
+bdd: --format pretty
+ambiente: prod
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+html_report: --format json -o reports/RelatorioHtml/report_builder_json/report_builder.json
