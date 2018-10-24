@@ -3,8 +3,6 @@ require 'capybara/DSL'
 require 'capybara/RSPEC/MATCHERS'
 require 'capybara/rspec'
 require "selenium-webdriver"
-require 'capybara/poltergeist'
-require "site_prism"
 require "report_builder"
 require_relative "pages_helpers.rb"
 require_relative "helpers.rb"
